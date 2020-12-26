@@ -18,20 +18,21 @@ header {
     background: var(--fantasy);
 }
 
-header > nav {
+header > nav.section {
     padding: 40px 0;
+    vertical-align: middle;
 }
 
 header > nav img {
     display: inline-block;
-    vertical-align: bottom;
+    vertical-align: middle;
 }
 
 header > nav > div {
     display: inline-block;
     text-align: right;
     width: 90%;
-    vertical-align: bottom;
+    vertical-align: middle;
 }
 
 
@@ -46,7 +47,6 @@ header > nav ul li {
 
 header > nav a {
     color: var(--color);
-
 }
 
 header > nav a:link {
@@ -61,8 +61,9 @@ header  p {
 }
 
 .section {
-    width: 1195px;
+    width: 1115px;
     margin: 0px auto;
+    padding: 0px 20px;
     margin-bottom: 70px;
 }
 
@@ -140,7 +141,7 @@ ul {
     color: rgba(210,55,121,1.0);
     font-family: 'Open Sans', Helvetica, Arial, serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .featured-project {
@@ -234,7 +235,6 @@ ul {
 .about-me .img-container {
     order: 1;
     background: var(--fantasy);
-
     height: 439px;
     border-radius: 10px;
 }
@@ -243,6 +243,8 @@ ul {
     position: relative;
     top: 50px;
     left: -80px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 12px #55555544; 
 }
 
 .about-me div {
@@ -272,6 +274,10 @@ ul {
 .footer .section > div {
     margin-right: 20px;
     display: inline-block;
+    vertical-align: middle;
+}
+
+.footer .section div img {
     vertical-align: middle;
 }
 
